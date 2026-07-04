@@ -24,7 +24,7 @@ cargo install chef
 ### From Source
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/x0abderahman/RustChef.git
 cd chef
 cargo build --release
 ./target/release/chef list
