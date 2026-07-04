@@ -1,0 +1,14 @@
+/home/shadow-byte/Documents/project-rust/target/release/deps/serde-311b184ced6d90d0.d: /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/shadow-byte/Documents/project-rust/target/release/build/serde-087ae045a5a4c3b7/out/private.rs
+
+/home/shadow-byte/Documents/project-rust/target/release/deps/libserde-311b184ced6d90d0.rlib: /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/shadow-byte/Documents/project-rust/target/release/build/serde-087ae045a5a4c3b7/out/private.rs
+
+/home/shadow-byte/Documents/project-rust/target/release/deps/libserde-311b184ced6d90d0.rmeta: /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/shadow-byte/Documents/project-rust/target/release/build/serde-087ae045a5a4c3b7/out/private.rs
+
+/home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/home/shadow-byte/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/home/shadow-byte/Documents/project-rust/target/release/build/serde-087ae045a5a4c3b7/out/private.rs:
+
+# env-dep:OUT_DIR=/home/shadow-byte/Documents/project-rust/target/release/build/serde-087ae045a5a4c3b7/out

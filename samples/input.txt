@@ -1,0 +1,5 @@
+Hello, World! This is a sample input file for chef.
+Base64 encode me! https://example.com/path?q=test
+Contact support@example.com or admin@test.org
+Server IPs: 192.168.1.1, 10.0.0.255, 8.8.8.8
+Special chars: a&b=c+d

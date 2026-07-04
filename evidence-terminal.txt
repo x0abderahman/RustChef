@@ -1,0 +1,191 @@
+========================================
+cargo test output
+========================================
+
+running 69 tests
+test cli::tests::test_valid_operation_names ... ok
+test cli::tests::test_create_single_operation_valid ... ok
+test cli::tests::test_create_xor_without_key ... ok
+test cli::tests::test_create_single_operation_invalid ... ok
+test cli::tests::test_validate_pipeline_empty ... ok
+test cli::tests::test_create_xor_with_key ... ok
+test cli::tests::test_validate_pipeline_invalid ... ok
+test cli::tests::test_validate_pipeline ... ok
+test operations::base64_op::tests::test_base64_decode ... ok
+test operations::base64_op::tests::test_base64_decode_invalid ... ok
+test operations::base64_op::tests::test_base64_decode_with_whitespace ... ok
+test operations::base64_op::tests::test_base64_encode ... ok
+test operations::base64_op::tests::test_base64_encode_empty ... ok
+test operations::base64_op::tests::test_base64_roundtrip ... ok
+test operations::binary_op::tests::test_binary_decode ... ok
+test operations::binary_op::tests::test_binary_decode_invalid ... ok
+test operations::binary_op::tests::test_binary_decode_invalid_char ... ok
+test operations::binary_op::tests::test_binary_decode_with_spaces ... ok
+test operations::binary_op::tests::test_binary_encode ... ok
+test operations::binary_op::tests::test_binary_roundtrip ... ok
+test operations::case_op::tests::test_lowercase ... ok
+test operations::case_op::tests::test_lowercase_already_lower ... ok
+test operations::case_op::tests::test_reverse ... ok
+test operations::case_op::tests::test_reverse_empty ... ok
+test operations::case_op::tests::test_reverse_palindrome ... ok
+test operations::case_op::tests::test_uppercase ... ok
+test operations::extract_op::tests::test_extract_emails_none ... ok
+test operations::extract_op::tests::test_extract_emails ... ok
+test operations::hash_op::tests::test_sha1 ... ok
+test operations::hash_op::tests::test_sha256 ... ok
+test operations::hash_op::tests::test_sha256_empty ... ok
+test operations::hex_op::tests::test_hex_decode ... ok
+test operations::hex_op::tests::test_hex_decode_invalid ... ok
+test operations::hex_op::tests::test_hex_decode_uppercase ... ok
+test operations::hex_op::tests::test_hex_encode ... ok
+test operations::hex_op::tests::test_hex_roundtrip ... ok
+test operations::json_op::tests::test_json_invalid ... ok
+test operations::json_op::tests::test_json_minify ... ok
+test operations::json_op::tests::test_json_pretty ... ok
+test operations::json_op::tests::test_json_roundtrip ... ok
+test operations::rot13_op::tests::test_rot13_basic ... ok
+test operations::rot13_op::tests::test_rot13_non_alpha ... ok
+test operations::rot13_op::tests::test_rot13_roundtrip ... ok
+test operations::rot13_op::tests::test_rot13_uppercase ... ok
+test operations::text_op::tests::test_entropy_empty ... ok
+test operations::text_op::tests::test_entropy_max ... ok
+test operations::text_op::tests::test_entropy_uniform ... ok
+test operations::text_op::tests::test_text_stats_basic ... ok
+test operations::text_op::tests::test_text_stats_empty ... ok
+test operations::text_op::tests::test_text_stats_multiline ... ok
+test operations::url_op::tests::test_url_decode ... ok
+test operations::url_op::tests::test_url_decode_special_chars ... ok
+test operations::url_op::tests::test_url_encode ... ok
+test operations::url_op::tests::test_url_encode_special_chars ... ok
+test operations::url_op::tests::test_url_roundtrip ... ok
+test operations::xor_op::tests::test_xor_basic ... ok
+test operations::xor_op::tests::test_xor_empty_key ... ok
+test operations::xor_op::tests::test_xor_roundtrip ... ok
+test operations::xor_op::tests::test_xor_single_char_key ... ok
+test pipeline::tests::test_pipeline_base64_then_hex ... ok
+test pipeline::tests::test_pipeline_chain ... ok
+test operations::hash_op::tests::test_md5 ... ok
+test pipeline::tests::test_pipeline_empty ... ok
+test pipeline::tests::test_pipeline_single ... ok
+test operations::hash_op::tests::test_md5_empty ... ok
+test operations::extract_op::tests::test_extract_urls ... ok
+test operations::extract_op::tests::test_extract_ips_valid_range ... ok
+test operations::extract_op::tests::test_extract_ips_none ... ok
+test operations::extract_op::tests::test_extract_ips ... ok
+
+test result: ok. 69 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 29 tests
+test test_binary_encode ... ok
+test test_base64_encode ... ok
+test test_binary_decode ... ok
+test test_entropy ... ok
+test test_base64_decode ... ok
+test test_hex_decode ... ok
+test test_json_pretty ... ok
+test test_json_minify ... ok
+test test_hex_encode ... ok
+test test_extract_emails ... ok
+test test_md5 ... ok
+test test_lower_case ... ok
+test test_list_operations ... ok
+test test_pipeline_basic ... ok
+test test_extract_urls ... ok
+test test_pipeline_invalid_operation ... ok
+test test_sha256 ... ok
+test test_stdin_input ... ok
+test test_reverse ... ok
+test test_upper_case ... ok
+test test_url_encode ... ok
+test test_unknown_operation ... ok
+test test_text_stats ... ok
+test test_url_decode ... ok
+test test_xor_without_key_fails ... ok
+test test_xor ... ok
+test test_rot13 ... ok
+test test_sha1 ... ok
+test test_extract_ips ... ok
+
+test result: ok. 29 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+========================================
+cargo clippy output
+========================================
+
+========================================
+Docker build output
+========================================
+#9 [builder 5/5] RUN cargo build --release
+#9 CACHED
+
+#10 [builder 4/5] COPY src/ src/
+#10 CACHED
+
+#11 [builder 3/5] COPY Cargo.toml Cargo.lock* ./
+#11 CACHED
+
+#12 [stage-1 2/3] RUN apt-get update -qq && apt-get install -y -qq     libc6     && rm -rf /var/lib/apt/lists/*
+#12 CACHED
+
+#13 [stage-1 3/3] COPY --from=builder /app/target/release/chef /usr/local/bin/chef
+#13 CACHED
+
+#14 exporting to image
+#14 exporting layers done
+#14 writing image sha256:c730547a2cffcc54a163810a21ba44845dec429df6badf8923b45ab110795d68 done
+#14 naming to docker.io/library/chef done
+#14 DONE 0.0s
+
+========================================
+Docker run examples
+========================================
+Available operations (23):
+  base64-encode  : Encode input data to Base64
+  base64-decode  : Decode Base64 encoded data
+  hex-encode  : Encode input data to hexadecimal
+  hex-decode  : Decode hexadecimal data
+  url-encode  : URL encode input data
+  url-decode  : URL decode input data
+  rot13  : Apply ROT13 (Caesar cipher shift by 13) to the input
+  xor  : (requires arguments)
+  md5  : Compute MD5 hash of the input
+  sha1  : Compute SHA-1 hash of the input
+  sha256  : Compute SHA-256 hash of the input
+  extract-ips  : Extract valid IPv4 addresses from the input
+  extract-urls  : Extract URLs from the input
+  extract-emails  : Extract email addresses from the input
+  text-stats  : Compute text statistics (characters, words, lines, bytes)
+  entropy  : Estimate Shannon entropy of the input (in bits per byte)
+  binary-encode  : Encode input data to binary (bits)
+  binary-decode  : Decode binary (bits) back to text
+  json-pretty  : Pretty-print JSON data
+  json-minify  : Minify JSON data (remove whitespace)
+  lower-case  : Convert all characters to lowercase
+  upper-case  : Convert all characters to uppercase
+  reverse  : Reverse the input string
+
+Usage:
+  chef op <operation> [input]           Run a single operation
+  chef run <op1,op2,...> [input]        Run a pipeline of operations
+  chef list                             List all operations
+
+For operations requiring arguments (like xor), use '--' followed by args:
+  chef op xor "hello" -- mykey
+  chef run "base64-encode,hex-encode" "hello"
+If no input is provided, reads from stdin.
+
+aGVsbG8=
+
+f6c6c65686

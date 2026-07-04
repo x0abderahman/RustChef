@@ -1,0 +1,2 @@
+for<'a> fn(&'a str) -> Result<Vec<Box<(dyn Operation + 'static)>>, std::string::String> {parse_pipeline}
+From<for<'a> fn(&'a str) -> Result<Vec<Box<(dyn Operation + 'static)>>, std::string::String> {parse_pipeline}>
